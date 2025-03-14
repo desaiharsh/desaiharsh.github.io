@@ -1,115 +1,228 @@
 <!DOCTYPE html>
 <html>
-<title>Harsh Desai</title>
 <meta charset="UTF-8">
+<title>Harsh Desai</title>
+
 <head>
-<link href='https://fonts.googleapis.com/css?family=Abhaya Libre' rel='stylesheet'>
-<style>
-body {	font-family: Abhaya Libre; font-size: 24px;}
-</style>
+	<link rel="stylesheet" type="text/css" href="fonts.css">
+	<style>
+		body {font-family: GeoForm; font-size: 24px;}
+		.image-cropper {
+			width: 270px;
+			height: 280px;
+			position: relative;
+			overflow: hidden;
+			display: inline-block;
+			border-radius: 50%;
+			text-align: center;
+			background-color: white;
+			border-style: double;
+			border-color: black;
+			border-width: 15px;
+			margin-left: 50px;
+			margin-top: 50px;
+		}
+		.contact-info {
+			width: 70%;
+			height: 280px;
+			display: inline-block;
+			margin-left: 50px;
+			margin-top: 75px;
+			text-align: left;
+			vertical-align: top;
+			line-height: 10px;
+			background-color: white;
+
+		}
+		.separator {
+			width: 90%;
+			margin-top: 45px;
+			border: 3px double gray;
+		}
+		.main-body {
+			width: 90%;
+			text-align: center;
+			margin: 0 auto;
+		}
+		.doc-link {
+			text-decoration:none; 
+			font-weight:500; 
+			color:black; 
+			border-style:solid; 
+			border-color:black; 
+			padding-left:10px; 
+			padding-right:10px;
+			padding-top:5px;
+			padding-bottom:5px;
+			vertical-align:middle;
+			border-radius:15%;
+		}
+	</style>
 </head>
+
+
 <body>
-<h1 style="line-height:0.6">Harsh Desai</h1>
-<img src="photo.jpg" alt="Profile" height="400" align="right">
-<p>
-	Ph.D. Candidate
-	<br>
-	Electrical &amp Computer Engineering
-	<br>
-	Carnegie Mellon University
-	<br>
-	<b>Email:</b> harshd@andrew.cmu.edu
-</p>
-<p style="line-height:1.5">
-	<b>My Advisor:</b> <a href="https://brandonlucia.com/">Brandon Lucia</a>
-	<br>
-	<b>My Lab:</b> The <a href="https://abstract.ece.cmu.edu/">ABSTRACT</a> research group at CMU 
-	<br>
-	<b><a href="resume.pdf">My Resume</a></b> 
-</p>
-<br>
-<br>
-<p style="max-width:600px; text-align:justify">
-	<b>Research Interests:</b>
-	<br><br>
-	I like to design computers that run without batteries.
-	<br>
-	These batteryless computers extract their energy from their environments, using the <i>harvested</i> energy for sensing, processing and communication tasks.
-	<br>
-	I am interested in designing full-stack (microarchitecture through to software) batteryless computers, with a focus on improving end-to-end performance.
-</p>
-<img src="sample_image.jpg" alt="Camaroptera sample" height="200" align="right">
-<img src="camaroptera.png" alt="Camaroptera" height="200" align="right" hspace="80px">
 
-<p style="max-width:600px; text-align:justify">
-	<b>Projects:</b>
-	<br><br>
-	<u>1. Camaroptera:</u>
-	I have a developed a tiny camera that runs entirely on solar power, capable of intelligent on-board processing (DNN-based human detection) and JPEG compression with only a few kilobytes of memory.
-	<br>
-	This camera, called <b>Camaroptera</b> (after the bird), can send these JPEG-compressed images across several kilometers to a remote basestation using a LoRa radio.
-	<br><br>
-	<u>2. PHASE:</u>
-	I have developed the first performance model for energy-harvesting systems, called the PHASE model, that incorporates energy-recharging latency into the end-to-end performance of the system. 
-	<br>
-	Energy-harvesting systems collect energy from their surroundings and store it in some small energy-storage element, like a battery or a capacitor.
-	During operation, they consume this stored energy. 
-	When the energy-storage element depletes below a certain threshold, energy-harvesting systems wait in a deep-sleep or OFF state for the energy to recharge.
+<div class="image-cropper">
+	<img src="profile.jpeg" alt="Profile" height="420" style="background-color:red;">
+</div>
 
+<div class="contact-info">
+<p style="font-weight:600; font-size:1.5em">HARSH DESAI</p>
+<p style="font-weight:400; font-size:1em">Postdoctoral Associate, Computer Science at <a href="https://cpsc.yale.edu/" style="color:black; ">Yale University</a></p>
+<p style="font-weight:400; font-size:1em"><b>Postdoc Advisor:</b> <a href="https://www.cs.yale.edu/homes/abhishek/" style="color:black; ">Abhishek Bhattacharjee</a></p>
+<p style="font-weight:400; font-size:1em"><b>Office:</b> AKW 214, 51 Prospect St, New Haven, CT 06511</p>
+<p style="font-weight:400; font-size:1em"><b>Email:</b> harsh <i>dot</i> desai <i>at</i> yale <i>dot</i> edu</p>
+<p style="font-weight:400; font-size:1em">
+	<a href="resume.pdf" style="text-decoration:none; font-weight:900; font-style:italic; color:black; border-style:solid; border-color:black; padding:4px; vertical-align:middle">
+		CV
+	</a>
+	<a href="https://scholar.google.com/citations?user=jgSmSQoAAAAJ&hl=en" style="text-decoration:none; padding:4px; vertical-align:middle; text-align:center;">
+		<img src="google-scholar.png" alt="Google Scholar" height="40">
+	</a>
+	<a href="https://linkedin.com/in/harshdesai22" style="text-decoration:none; padding:-2px; vertical-align:middle;text-align:center;">
+		<img src="linkedIn.png" alt="LinkedIn" height="40">
+	</a>
 </p>
+</div>
 
-<p style="max-width:600px; text-align:justify">
-	<b>Publications:</b>
+<hr class="separator">
+
+<div class="main-body">
+	<p style="font-size:1.2em; font-weight:500"> <u>Latest News</u>	</p>
+	<p>
+		I will be attending ASPLOS 2025 at Rotterdam, Netherlands to present our Quetzal paper!
+	</p>
+</div>
+
+<hr class="separator">
+
+<div class="main-body">
+	<p style="font-size:1.2em; font-weight:500"> <u>Research Vision</u>	</p>
+	<p>	
+		I design computer systems that work in extremely resource-constrained environments. My research interests span across the stack -- from programming constructs and scheduling policies to novel computer architectures and building practical systems.
+	<br>
+		I am <b style="font-weight:500; font-style:italic">currently</b> working on building cutting-edge computer architectures for implantable brain-computer interfaces (BCIs). 
+		Intracortical BCIs can directly monitor electrical signals produced by the human brain, which can then be decoded for several key medical applications, like interpreting motion intent in tetraplegic individuals and seizure prevention in Epilepsy patients. 
+	<br>
+		During my <b style="font-weight:500; font-style:italic">PhD</b>, I designed energy-harvesting computers, which could collect and process sensor data while being powered entirely from clean, environmental energy. I developed performance models, optimization tools and schedulers for energy-harvesting devices, while building real-world, to-scale prototypes which work across dynamically variable energy-harvesting conditions. 
+	</p>
+</div>
+
+<hr class="separator">
+
+<div class="main-body" style="line-height:40px">
+	<p style="font-size:1.2em; font-weight:500"> <u>Publications</u>	</p>
+	<p style="font-size:0.8em;">
         <ul>
-          <li><b>An Architectural Charge Management Interface for Energy-Harvesting Systems</b>
+          <li>
+			  Quetzal: Energy-aware Scheduling and Input Buffer Overflow Prevention for Energy-harvesting Systems
+			  <a href="" class="doc-link">Link</a>
+			  <a href="quetzal.pdf" class="doc-link">PDF</a>	
               <br>
-              Emily Ruppel, Milijana Surbatovich, <b>Harsh Desai</b>, Kiwan Maeng, Brandon Lucia
+			  <span style="font-weight:500">Harsh Desai</span>, 
+			  Xinye Wang, Brandon Lucia 
+			  <span style="font-weight:900">|</span>
+              <span style="font-weight:500">ASPLOS 2025</span>
 			  <br>
-              <i> 2022 55th IEEE/ACM International Symposium on Microarchitecture (MICRO) </i> <a href="https://ieeexplore.ieee.org/abstract/document/9923863">[paper]</a>
+          </li>
+          <br>
+          <li>
+		  	  Pipestitch: An energy-minimal dataflow architecture with lightweight threads
+			  <a href="https://dl.acm.org/doi/10.1145/3613424.3614283" class="doc-link">Link</a>
+			  <a href="pipestitch.pdf" class="doc-link">PDF</a>	
+              <br>
+			  Nathan Serafin, Souradip Ghosh, 
+			  <span style="font-weight:500">Harsh Desai</span>, 
+			  Nathan Beckmann, Brandon Lucia
+			  <span style="font-weight:900">|</span>
+              <span style="font-weight:500">MICRO 2023</span>
             </li>
           <br>
-          <li><b>Camaroptera: A Long-Range Image Sensor with Local Inference for Remote Sensing Applications</b>
+          <li>
+		  	  Culpeo: An Architectural Charge Management Interface for Energy-Harvesting Systems
+			  <a href="https://ieeexplore.ieee.org/abstract/document/9923863" class="doc-link">Link</a>
+			  <a href="culpeo.pdf" class="doc-link">PDF</a>	
               <br>
-              <b>Harsh Desai</b>, Matteo Nardello, Davide Brunelli, Brandon Lucia
-              <br>
-              <i> ACM Transactions on Embedded Computing Systems ( Volume: 21, Issue: 3, May 2022 ) </i> <a href="camaroptera-tecs.pdf">[paper]</a>
+              Emily Ruppel, Milijana Surbatovich, 
+			  <span style="font-weight:500">Harsh Desai</span>, 
+			  Kiwan Maeng, Brandon Lucia
+			  <span style="font-weight:900">|</span>
+              <span style="font-weight:500">MICRO 2022</span>
             </li>
           <br>
-          <li><b>Computational nanosatellite constellations: Opportunities and challenges</b>
+          <li>
+		  	  Camaroptera: A Long-Range Image Sensor with Local Inference for Remote Sensing Applications
+			  <a href="https://dl.acm.org/doi/10.1145/3510850" class="doc-link">Link</a>
+			  <a href="camaroptera-tecs.pdf" class="doc-link">PDF</a>
               <br>
-              Brandon Lucia, Brad Denby, Zachary Manchester, <b>Harsh Desai</b>, Emily Ruppel, Alexei Colin
-              <br>
-              <i> GetMobile: Mobile Computing and Communications </i> <a href="https://dl.acm.org/doi/abs/10.1145/3471440.3471446">[paper]</a>
+			  <span style="font-weight:500">Harsh Desai</span>, 
+			  Matteo Nardello, Davide Brunelli, Brandon Lucia
+			  <span style="font-weight:900">|</span>
+              <span style="font-weight:500">TECS 2022</span>
             </li>
           <br>
-          <li><b>A Power-Aware Heterogeneous Architecture Scaling Model for Energy-Harvesting Computers</b>
+          <li>
+		  	  Computational nanosatellite constellations: Opportunities and challenges
+			  <a href="https://dl.acm.org/doi/abs/10.1145/3471440.3471446" class="doc-link">Link</a>
+			  <a href="cns.pdf" class="doc-link">PDF</a>
               <br>
-              <b>Harsh Desai</b> and Brandon Lucia
-              <br>
-              <i> IEEE Computer Architecture Letters ( Volume: 19 , Issue: 1 , Jan.-June 1 2020 )</i> <a href="phase-cal.pdf">[paper]</a>
+              Brandon Lucia, Brad Denby, Zachary Manchester, 
+			  <span style="font-weight:500">Harsh Desai</span>, 
+			  Emily Ruppel, Alexei Colin
+			  <span style="font-weight:900">|</span>
+              <span style="font-weight:500">GetMobile 2021</span>
             </li>
           <br>
-          <li><b>Camaroptera: a Batteryless Long-Range Remote Visual Sensing System</b>
+          <li>A Power-Aware Heterogeneous Architecture Scaling Model for Energy-Harvesting Computers
+			  <a href="https://www.computer.org/csdl/journal/ca/2020/01/09078058/1keqGRUpIA0" class="doc-link">Link</a>
+              <a href="phase-cal.pdf" class="doc-link">PDF</a>
               <br>
-              Matteo Nardello, <b>Harsh Desai</b>, Davide Brunelli, and Brandon Lucia
+			  <span style="font-weight:500">Harsh Desai</span>, 
+              and Brandon Lucia
+			  <span style="font-weight:900">|</span>
+              <span style="font-weight:500">CAL 2020</span>
               <br>
-              <i>Energy Harvesting & Energy-Neutral Sensing Systems (ENSsys’19), New York, NY, USA.</i> <a href="camaroptera-enssys.pdf">[paper]</a>
             </li>
           <br>
-          <li><b>Powering Pipeline Monitoring Sensors Using Locally Available Energy</b>
+          <li>Camaroptera: a Batteryless Long-Range Remote Visual Sensing System
+			  <a href="https://dl.acm.org/doi/abs/10.1145/3362053.3363491" class="doc-link">Link</a>
+              <a href="camaroptera-enssys.pdf" class="doc-link">PDF</a>
               <br>
-              Harshit Shukla, Kalyan R. Piratla, <b>Harsh Desai</b>, and Jacob Sorber
-              <br>
-              <i>Pipelines 2019</i> <a href="https://ascelibrary.org/doi/10.1061/9780784482506.033">[paper]</a>
+              Matteo Nardello, 
+			  <span style="font-weight:500">Harsh Desai</span>,
+			  Davide Brunelli, and Brandon Lucia
+			  <span style="font-weight:900">|</span>
+              <span style="font-weight:500">ENSsys 2019</span>
             </li>
           <br>
-          <li><b>Evaluation of Energy Harvesting Potential in Water Pipelines to Power Sustainable Monitoring Systems</b>
+          <li>Powering Pipeline Monitoring Sensors Using Locally Available Energy
+			  <a href="https://ascelibrary.org/doi/10.1061/9780784482506.033" class="doc-link">Link</a>
+              <a href="pipeline.pdf" class="doc-link">PDF</a>
               <br>
-              Harshit Shukla, <b>Harsh Desai</b>, Jacob Sorber, and Kalyan R. Piratla
+              Harshit Shukla, Kalyan R. Piratla, 
+			  <span style="font-weight:500">Harsh Desai</span>, 
+			  and Jacob Sorber
+			  <span style="font-weight:900">|</span>
+              <span style="font-weight:500">Pipelines 2019</span>
+            </li>
+          <br>
+          <li>Evaluation of Energy Harvesting Potential in Water Pipelines to Power Sustainable Monitoring Systems
+			  <a href="https://ascelibrary.org/doi/10.1061/9780784481295.047" class="doc-link">Link</a>
+              <a href="crc.pdf" class="doc-link">PDF</a>
               <br>
-              <i>Construction Research Congress 2018</i> <a href="https://ascelibrary.org/doi/10.1061/9780784481295.047">[paper]</a>
+              Harshit Shukla, 
+			  <span style="font-weight:500">Harsh Desai</span>, 
+			  Jacob Sorber, and Kalyan R. Piratla
+			  <span style="font-weight:900">|</span>
+              <span style="font-weight:500">Construction Research Congress 2018</span>
             </li>
         </ul>
-</p>
+
+	</p>
+
+
+</div>
+
 </body>
 </html>
