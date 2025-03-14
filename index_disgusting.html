@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<title>Harsh Desai</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body class="w3-content" style="max-width:1300px">
+
+<!-- First Grid: Logo & About -->
+<div class="w3-row">
+  <div class="w3-half w3-black w3-container w3-center" style="height:900px">
+    <div class="w3-padding-64">
+      <h1>Harsh Sandesh Desai</h1>
+    </div>
+    <div class="w3-padding-64">
+      <a href="#" class="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16">Home</a>
+      <a href="#work" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16">Research Interests</a>
+      <a href="#work" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16">Publications</a>
+      <a href="resume.pdf" class="w3-button w3-black w3-block w3-hover-brown w3-padding-16">Resume</a>
+    </div>
+  </div>
+  <div class="w3-half w3-blue-grey w3-container" style="height:900px">
+    <div class="w3-padding-64 w3-center">
+      <h1>About Me</h1>
+      <img src="photo.jpg" class="w3-margin w3-circle" alt="Harsh-Profile" style="width:50%">
+      <div class="w3-left-align w3-padding-large">
+        <p>Hi, I'm a second-year Ph.D. student at Carnegie Mellon University, in the Electrical and Computer Engineering (ECE) Department.</p>
+        <p>I design tiny sensing computers that work without batteries, as a part of the <a href="http://abstract.ece.cmu.edu/">ABSTRACT</a> research group led by <a href="https://brandonlucia.com/">Prof. Brandon Lucia</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid: Work & Resume -->
+<div class="w3-row">
+  <div class="w3-half w3-light-grey w3-center" style="min-height:800px" id="work">
+    <div class="w3-padding-64">
+      <h2>Research Interests</h2>
+      <p>I am interested in the design, development and deployment of ultra-low-power sensing computers.</p>
+      <p>This class of cheap & tiny sensors will drive the ubiquitous sensing applications of tomorrow.</p>
+      <p>My research involves building hardware prototypes of such ultra-low-power sensing systems, crafting software to run on their resource-constrained processors and designing the system architecture to optimize runtime performance according to application requirements </p>
+    </div>
+    <div class="w3-row">
+      <p>Here's an example of my most recent work:</p>
+      <div class="w3-half">
+        <img src="camaroptera.png", style="width: 80%">     
+      </div>
+      <div class="w3-half">
+        <p style="font-size:85%">This is Camaroptera: a batteryless, wireless, long-range smart camera.
+          <br>
+          It can image it's environment and, using a local CNN inference engine, determine the presence of people around it.
+          <br>
+          It sends the images it finds to be interesting to a remote server using a LoRa radio.
+        </p>  
+      </div>
+    </div>
+  </div>
+  <div class="w3-half w3-indigo w3-container" style="min-height:800px">
+    <div class="w3-padding-64 w3-center">
+      <h2>Publications</h2>
+      <div class="w3-padding w3-left-align">
+        <p>Workshop Papers:</p>     
+        <ul>
+          <li style="font-size:70%"><b>Camaroptera: a Batteryless Long-Range Remote Visual Sensing System</b>
+              <br>
+              Matteo Nardello, Harsh Desai, Davide Brunelli, and Brandon Lucia
+              <br>
+              <i>Energy Harvesting & Energy-Neutral Sensing Systems (ENSsys’19), New York, NY, USA.</i> <a href="camaroptera-enssys.pdf">[paper]</a>
+            </li>
+        </ul>
+      </div>
+      <div class="w3-padding w3-left-align">
+        <p>Other Publications:</p>     
+        <ul>
+          <li style="font-size:70%"><b>Powering Pipeline Monitoring Sensors Using Locally Available Energy</b>
+              <br>
+              Harshit Shukla, Kalyan R. Piratla, Harsh Desai, and Jacob Sorber
+              <br>
+              <i>Pipelines 2019</i> <a href="pipelines_1.pdf">[paper]</a>
+            </li>
+        <li style="font-size:70%"><b>Evaluation of Energy Harvesting Potential in Water Pipelines to Power Sustainable Monitoring Systems</b>
+              <br>
+              Harshit Shukla, Harsh Desai, Jacob Sorber, and Kalyan R. Piratla
+              <br>
+              <i>Construction Research Congress 2018</i> <a href="pipelines_2.pdf">[paper]</a>
+            </li></ul>
+      </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-black w3-padding-16">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+</body>
+</html>
